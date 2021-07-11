@@ -67,3 +67,11 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+### `メモ`
+
+scssを使う際はバージョンを10.2
+
+nodeのバージョンを4.14.1にする
+
+`npm i -D sass-loader@10.2.0 node-sass@4.14.1`
