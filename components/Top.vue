@@ -1,5 +1,4 @@
 <template>
-
     <div class="wrapper">
         <h1>もちべった～～</h1>
         <div class="main-wrapper">
@@ -28,7 +27,8 @@
                 </div>
             </div>
             <div class="char">
-                （ここにキャラクターが入ります。うごきます。canvasにする？？）
+                <MyCanvas/>
+                <!-- （ここにキャラクターが入ります） -->
             </div>
             <div class="message">
                 (メッセージ画面が入ります)
@@ -36,3 +36,12 @@
         </div>
     </div>
 </template>
+
+<script lang="ts">
+import MyCanvas from './MyCanvas.vue'
+export default {
+  components: {
+    MyCanvas
+  }
+}
+</script>
