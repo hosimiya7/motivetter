@@ -4,10 +4,7 @@
         <div class="main-wrapper">
             <div class="flex">
                 <div class="command">
-                    ここにコマンド<br>
-                    が入ります<br>
-                    cssの疑似要素<br>
-                    で▼つける
+                    <Commands />
                 </div>
                 <div class="goal">
                     （ここに大目標が入ります）21文字制限
@@ -27,11 +24,11 @@
                 </div>
             </div>
             <div class="char">
-                <MyCanvas/>
+                <MyCanvas />
                 <!-- （ここにキャラクターが入ります） -->
             </div>
             <div class="message">
-                (メッセージ画面が入ります)
+                <Message v-bind: />
             </div>
         </div>
     </div>
@@ -39,9 +36,11 @@
 
 <script lang="ts">
 import MyCanvas from './MyCanvas.vue'
+import Commands from './Commands.vue'
 export default {
   components: {
-    MyCanvas
+    MyCanvas,
+    Commands
   }
 }
 </script>
