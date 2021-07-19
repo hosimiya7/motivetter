@@ -28,7 +28,7 @@
                 <!-- （ここにキャラクターが入ります） -->
             </div>
             <div class="message">
-                <Message v-bind: />
+                <Message/>
             </div>
         </div>
     </div>

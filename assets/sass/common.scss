@@ -140,3 +140,76 @@ h1 {
         }
     }
 }
+
+.message-achieve{
+    border: none;
+    font-size: 0.8em;
+    h3{
+        font-size: 1em;
+        font-weight: normal;
+        text-align: left;
+        margin: 0.5em 0 0 2em;
+    }
+    input{
+        width: 50px;
+    }
+    span{
+        &:first-child{
+            position: relative;
+        }
+        &::before{
+            position: absolute;
+            content: "▲";
+            transform: rotate(90deg);
+            left: -1.5em;
+        }
+    }
+}
+
+.message-chara{
+    border: none;
+    font-size: 0.8em;
+    text-align: left;
+    display: inline;
+    h3{
+        font-size: 1em;
+        font-weight: normal;
+        text-align: left;
+        margin: 0.5em 0 0 2em;
+    }
+    .chara-index{
+        margin: 1em 6em 0 0;
+        .chara-index-first, .chara-index-second{
+            margin-top: 0.5em;
+            span{
+                &:first-child{
+                    margin-right: 19em;
+                }
+            }
+        }
+    }
+}
+
+.message-game{
+    border: none;
+    font-size: 0.8em;
+    text-align: left;
+    display: inline;
+    h3{
+        font-size: 1em;
+        font-weight: normal;
+        text-align: left;
+        margin: 0.5em 0 0 2em;
+    }
+    .game-index{
+        margin: 1em 6em 0 0;
+        .game-index-first, .game-index-second{
+            margin-top: 0.5em;
+            span{
+                &:first-child{
+                    margin-right: 19em;
+                }
+            }
+        }
+    }
+}
